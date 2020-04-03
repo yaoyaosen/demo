@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="true">
+	<!--引入默认的一些设置-->
+	<include resource="config/logback-base.xml"/>
+	<!-- 级别 TRACE < DEBUG < INFO < WARN < ERROR < FATAL -->
+	<root level="INFO">
+		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="asyncFile"/>
+	</root>
+</configuration>

@@ -1,0 +1,7 @@
+server:
+    port: 3573
+spring:
+    application:
+        name: api
+logging:
+    path: logs
