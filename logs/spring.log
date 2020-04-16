@@ -1,28 +1,418 @@
-2020-04-03 17:47:43.568  INFO 14660 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 14660 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
-2020-04-03 17:47:43.583  INFO 14660 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
-2020-04-03 17:47:45.732  INFO 14660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
-2020-04-03 17:47:45.772  INFO 14660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-03 17:47:45.773  INFO 14660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
-2020-04-03 17:47:45.787  INFO 14660 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
-2020-04-03 17:47:45.891  INFO 14660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-03 17:47:45.891  INFO 14660 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2219 ms
-2020-04-03 17:47:46.154  INFO 14660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-03 17:47:46.416  INFO 14660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
-2020-04-03 17:47:46.419  INFO 14660 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 3.566 seconds (JVM running for 4.171)
-2020-04-03 17:48:46.149  INFO 12116 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 12116 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
-2020-04-03 17:48:46.153  INFO 12116 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
-2020-04-03 17:48:48.147  INFO 12116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
-2020-04-03 17:48:48.174  INFO 12116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-03 17:48:48.175  INFO 12116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
-2020-04-03 17:48:48.187  INFO 12116 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
-2020-04-03 17:48:48.291  INFO 12116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-03 17:48:48.291  INFO 12116 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2055 ms
-2020-04-03 17:48:48.590  INFO 12116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-03 17:48:48.897  INFO 12116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
-2020-04-03 17:48:48.900  INFO 12116 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 3.249 seconds (JVM running for 3.778)
-2020-04-03 17:49:04.354  INFO 12116 --- [http-nio-3573-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-03 17:49:04.354  INFO 12116 --- [http-nio-3573-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-03 17:49:04.360  INFO 12116 --- [http-nio-3573-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-04-03 17:49:04.388  INFO 12116 --- [http-nio-3573-exec-2] x.y.demo.controller.user.UserController  : test
-2020-04-03 17:49:06.982  INFO 12116 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : test
-2020-04-03 17:49:50.037  INFO 12116 --- [http-nio-3573-exec-5] x.y.demo.controller.user.UserController  : test
+2020-04-16 14:52:04.223  INFO 7704 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 7704 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 14:52:04.234  INFO 7704 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 14:52:06.221  INFO 7704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82901 (http)
+2020-04-16 14:52:06.243  INFO 7704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 14:52:06.243  INFO 7704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 14:52:06.252  INFO 7704 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 14:52:06.351  INFO 7704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 14:52:06.352  INFO 7704 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2053 ms
+2020-04-16 14:52:06.584  INFO 7704 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 14:52:06.823 ERROR 7704 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-82901]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at xyz.yyaos.demo.AppBootstrap.main(AppBootstrap.java:12) [classes/:na]
+Caused by: java.lang.IllegalArgumentException: port out of range:82901
+	at java.net.InetSocketAddress.checkPort(InetSocketAddress.java:143) ~[na:1.8.0_181]
+	at java.net.InetSocketAddress.<init>(InetSocketAddress.java:188) ~[na:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:235) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	... 14 common frames omitted
+
+2020-04-16 14:52:06.828  INFO 7704 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-04-16 14:52:06.838  INFO 7704 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-16 14:52:06.840 ERROR 7704 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 82901 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 82901, or configure this application to listen on another port.
+
+2020-04-16 14:52:06.842  INFO 7704 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 14:52:55.855  INFO 13092 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 13092 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 14:52:55.859  INFO 13092 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 14:52:57.423  INFO 13092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 14:52:57.451  INFO 13092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 14:52:57.451  INFO 13092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 14:52:57.463  INFO 13092 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 14:52:57.562  INFO 13092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 14:52:57.562  INFO 13092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1654 ms
+2020-04-16 14:52:57.811  INFO 13092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 14:52:58.080  INFO 13092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 14:52:58.084  INFO 13092 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.648 seconds (JVM running for 3.112)
+2020-04-16 15:21:33.074  INFO 13092 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:21:33.075  INFO 13092 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:21:33.081  INFO 13092 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-16 15:21:33.118  INFO 13092 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:23:07.901  INFO 9908 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 9908 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:23:07.905  INFO 9908 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:23:09.490  INFO 9908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:23:09.513  INFO 9908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:23:09.513  INFO 9908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:23:09.523  INFO 9908 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:23:09.634  INFO 9908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:23:09.635  INFO 9908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1688 ms
+2020-04-16 15:23:09.918  INFO 9908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:23:10.216  INFO 9908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:23:10.221  INFO 9908 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.727 seconds (JVM running for 3.152)
+2020-04-16 15:23:16.671  INFO 9908 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:23:16.672  INFO 9908 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:23:16.677  INFO 9908 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-04-16 15:23:16.709  INFO 9908 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:23:44.391  INFO 14204 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 14204 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:23:44.394  INFO 14204 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:23:45.974  INFO 14204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:23:45.998  INFO 14204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:23:45.998  INFO 14204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:23:46.009  INFO 14204 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:23:46.113  INFO 14204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:23:46.114  INFO 14204 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1667 ms
+2020-04-16 15:23:46.345  INFO 14204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:23:46.628  INFO 14204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:23:46.631  INFO 14204 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.747 seconds (JVM running for 3.263)
+2020-04-16 15:23:54.239  INFO 14204 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:23:54.240  INFO 14204 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:23:54.248  INFO 14204 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-16 15:23:54.285  INFO 14204 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:24:22.997  INFO 16780 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 16780 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:24:23.000  INFO 16780 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:24:24.575  INFO 16780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:24:24.601  INFO 16780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:24:24.602  INFO 16780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:24:24.614  INFO 16780 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:24:24.736  INFO 16780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:24:24.737  INFO 16780 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1649 ms
+2020-04-16 15:24:24.950  INFO 16780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:24:25.181  INFO 16780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:24:25.183  INFO 16780 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.646 seconds (JVM running for 3.084)
+2020-04-16 15:24:50.991  INFO 16780 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:24:50.991  INFO 16780 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:24:50.997  INFO 16780 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-16 15:24:51.029  INFO 16780 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:26:06.678  INFO 9540 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 9540 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:26:06.684  INFO 9540 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:26:08.351  INFO 9540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:26:08.374  INFO 9540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:26:08.375  INFO 9540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:26:08.385  INFO 9540 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:26:08.476  INFO 9540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:26:08.476  INFO 9540 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1718 ms
+2020-04-16 15:26:08.693  INFO 9540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:26:08.948  INFO 9540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:26:08.951  INFO 9540 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.749 seconds (JVM running for 3.215)
+2020-04-16 15:26:32.844  INFO 9540 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:26:32.844  INFO 9540 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:26:32.850  INFO 9540 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-16 15:26:32.877  INFO 9540 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:27:28.128  INFO 17368 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 17368 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:27:28.131  INFO 17368 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:27:29.706  INFO 17368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:27:29.729  INFO 17368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:27:29.730  INFO 17368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:27:29.742  INFO 17368 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:27:29.844  INFO 17368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:27:29.845  INFO 17368 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1643 ms
+2020-04-16 15:27:30.093  INFO 17368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:27:30.402  INFO 17368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:27:30.405  INFO 17368 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.755 seconds (JVM running for 3.214)
+2020-04-16 15:27:50.377  INFO 17368 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:27:50.378  INFO 17368 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:27:50.385  INFO 17368 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-16 15:27:50.416  INFO 17368 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:36:11.356  INFO 15248 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 15248 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:36:11.360  INFO 15248 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:36:13.293  INFO 15248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:36:13.317  INFO 15248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:36:13.317  INFO 15248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:36:13.327  INFO 15248 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:36:13.429  INFO 15248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:36:13.429  INFO 15248 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2015 ms
+2020-04-16 15:36:13.655  INFO 15248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:36:13.879  INFO 15248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:36:13.882  INFO 15248 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 3.037 seconds (JVM running for 3.521)
+2020-04-16 15:36:24.078  INFO 15248 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:36:24.078  INFO 15248 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:36:24.085  INFO 15248 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-16 15:36:24.114 ERROR 15248 --- [http-nio-3573-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 无token，请重新登录] with root cause
+
+java.lang.RuntimeException: 无token，请重新登录
+	at xyz.yyaos.demo.auth.Authorization.preHandle(AuthInterceptor.java:45) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at xyz.yyaos.demo.filter.RouteFilter.doFilter(TimeFilter.java:19) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-04-16 15:37:18.447  INFO 1032 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 1032 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:37:18.450  INFO 1032 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:37:19.952  INFO 1032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:37:19.980  INFO 1032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:37:19.981  INFO 1032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:37:19.992  INFO 1032 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:37:20.088  INFO 1032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:37:20.089  INFO 1032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1583 ms
+2020-04-16 15:37:20.308  INFO 1032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:37:20.567  INFO 1032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:37:20.570  INFO 1032 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.67 seconds (JVM running for 3.12)
+2020-04-16 15:37:24.729  INFO 1032 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:37:24.729  INFO 1032 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:37:24.736  INFO 1032 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-16 15:37:24.765  INFO 1032 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:39:50.063  INFO 6088 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 6088 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:39:50.066  INFO 6088 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:39:51.779  INFO 6088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:39:51.802  INFO 6088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:39:51.803  INFO 6088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:39:51.814  INFO 6088 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:39:51.915  INFO 6088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:39:51.916  INFO 6088 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1799 ms
+2020-04-16 15:39:52.146  INFO 6088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:39:52.434  INFO 6088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:39:52.441  INFO 6088 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.859 seconds (JVM running for 3.335)
+2020-04-16 15:40:04.809  INFO 6088 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:40:04.810  INFO 6088 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:40:04.815  INFO 6088 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-04-16 15:40:04.845  INFO 6088 --- [http-nio-3573-exec-1] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:40:06.050  INFO 6088 --- [http-nio-3573-exec-2] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:40:06.898  INFO 6088 --- [http-nio-3573-exec-3] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:48:49.760  INFO 572 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 572 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 15:48:49.763  INFO 572 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 15:48:51.493  INFO 572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 15:48:51.518  INFO 572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:48:51.518  INFO 572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 15:48:51.527  INFO 572 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 15:48:51.630  INFO 572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:48:51.630  INFO 572 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1770 ms
+2020-04-16 15:48:51.860  INFO 572 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:48:52.123  INFO 572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 15:48:52.126  INFO 572 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 2.844 seconds (JVM running for 3.313)
+2020-04-16 15:48:56.024  INFO 572 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:48:56.024  INFO 572 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:48:56.029  INFO 572 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-04-16 15:48:56.063 ERROR 572 --- [http-nio-3573-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.lang.RuntimeException: 无token，请重新登录
+	at xyz.yyaos.demo.auth.Authorization.preHandle(AuthInterceptor.java:43) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-04-16 15:48:56.065 ERROR 572 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.RuntimeException: 无token，请重新登录
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1013) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.lang.RuntimeException: 无token，请重新登录
+	at xyz.yyaos.demo.auth.Authorization.preHandle(AuthInterceptor.java:43) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	... 25 common frames omitted
+
+2020-04-16 15:49:11.995  INFO 572 --- [http-nio-3573-exec-2] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:49:16.455  INFO 572 --- [http-nio-3573-exec-3] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:49:28.330  INFO 572 --- [http-nio-3573-exec-4] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:49:36.017  INFO 572 --- [http-nio-3573-exec-5] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:49:39.105  INFO 572 --- [http-nio-3573-exec-6] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 15:49:39.498  INFO 572 --- [http-nio-3573-exec-7] x.y.demo.controller.user.UserController  : wxz
+2020-04-16 20:21:38.988  INFO 12812 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 12812 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 20:21:38.992  INFO 12812 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 20:21:41.076  INFO 12812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 20:21:41.112  INFO 12812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 20:21:41.113  INFO 12812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 20:21:41.126  INFO 12812 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 20:21:41.234  INFO 12812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 20:21:41.235  INFO 12812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2142 ms
+2020-04-16 20:21:41.479  INFO 12812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 20:21:41.808  INFO 12812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 20:21:41.811  INFO 12812 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 3.385 seconds (JVM running for 3.911)
+2020-04-16 20:22:00.604  INFO 12812 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 20:22:00.604  INFO 12812 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 20:22:00.609  INFO 12812 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-04-16 20:24:01.294  INFO 8872 --- [main] xyz.yyaos.demo.AppBootstrap              : Starting AppBootstrap on DESKTOP-SLIB99M with PID 8872 (C:\work\workspace\demo\out\production\classes started by wong in C:\work\workspace\demo)
+2020-04-16 20:24:01.298  INFO 8872 --- [main] xyz.yyaos.demo.AppBootstrap              : No active profile set, falling back to default profiles: default
+2020-04-16 20:24:03.171  INFO 8872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3573 (http)
+2020-04-16 20:24:03.195  INFO 8872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 20:24:03.196  INFO 8872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-16 20:24:03.207  INFO 8872 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\work\dev\java_8\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\work\dev\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\work\dev\java_8\jdk1.8\bin;C:\work\dev\gradle-5.1\bin;C:\work\dev\Git\cmd;C:\App\mysql-5.7.29-winx64\bin;C:\App\redis;C:\Users\xuzha\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-16 20:24:03.310  INFO 8872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 20:24:03.311  INFO 8872 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1873 ms
+2020-04-16 20:24:03.541  INFO 8872 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 20:24:03.882  INFO 8872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3573 (http) with context path ''
+2020-04-16 20:24:03.885  INFO 8872 --- [main] xyz.yyaos.demo.AppBootstrap              : Started AppBootstrap in 3.278 seconds (JVM running for 3.807)
+2020-04-16 20:24:07.938  INFO 8872 --- [http-nio-3573-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 20:24:07.939  INFO 8872 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 20:24:07.944  INFO 8872 --- [http-nio-3573-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-04-16 20:24:08.201 ERROR 8872 --- [http-nio-3573-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+
+java.lang.RuntimeException: null
+	at xyz.yyaos.demo.auth.Authorization.preHandle(Authorization.java:75) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at xyz.yyaos.demo.filter.RouteFilter.doFilter(RouteFilter.java:18) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+

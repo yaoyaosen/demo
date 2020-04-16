@@ -5,10 +5,10 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * 账户
+ * 角色
  */
 @Data
-public class Account {
+public class Role {
 
 	/**
 	 * id
@@ -16,9 +16,9 @@ public class Account {
 	private String id;
 
 	/**
-	 * 密码
+	 * 名称
 	 */
-	private String password;
+	private String name;
 
 	/**
 	 * 创建时间

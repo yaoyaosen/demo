@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import xyz.yyaos.demo.auth.AuthInterceptor;
+import xyz.yyaos.demo.auth.Authorization;
 
 import java.util.Arrays;
 import java.util.List;
@@ -37,8 +37,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
 	 * @return authInterceptor
 	 */
 	@Bean
-	public AuthInterceptor authInterceptor() {
-		return new AuthInterceptor();
+	public Authorization authInterceptor() {
+		return new Authorization();
 	}
-
 }
